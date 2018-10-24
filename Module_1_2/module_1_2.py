@@ -276,7 +276,7 @@ print(can_read,"found =",can_read in can_read_things)
 input_test = input("enter somethings eaten in las 24 hrs:")
 allergen = input("enter allergen:")
 # 2/3[ ] print True if "dairy" is in the input or False if not
-print('It is',allergen.lower() in input_test.lower(),'that','"',input_test,'"','contains','"',allergen,'"')
+print('It is',allergen.lower() in input_test.lower(),'that',input_test,'contains',allergen)
 # 4[ ] Check if "nuts" are in the input 
 #  Dovile's comment: See step no.1. There is a variable "allergen". You can enter "nuts" there.
 # 4+[ ] Challenge: Check if "seafood" is in the input
@@ -291,7 +291,7 @@ print('It is',allergen.lower() in input_test.lower(),'that','"',input_test,'"','
 input_test = input("enter somethings eaten in las 24 hrs:")
 allergen = input("enter allergen:")
 # 2/3[ ] print True if "dairy" is in the input or False if not
-print('It is',allergen.lower() in input_test.lower(),'that','"',input_test,'"','contains','"',allergen,'"')
+print('It is',allergen.lower() in input_test.lower(),'that',input_test,'contains',allergen)
 # 4[ ] Check if "nuts" are in the input 
 #  Dovile's comment: See step no.1. There is a variable "allergen". You can enter "nuts" there.
 # 4+[ ] Challenge: Check if "seafood" is in the input
