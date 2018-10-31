@@ -62,7 +62,7 @@ w_start_test(test_string_3)
 
 # TASK 1
 # _____________________
-# x = 9 + 4
+x = 9 + 4
 # [ ] create a test to print() True or False for x is equal to 13
 print(x == 13)
 # _____________________
