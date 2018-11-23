@@ -35,7 +35,7 @@ def adding_report(report = "T"):
     total = 0
     items = ""
     
-    if report == "T" or report == "A":
+    if report == "T" or report == "A" or report == "":
     
         while True:
             user = input("Integer or Quit: ")
